@@ -2,6 +2,7 @@
 extern crate diesel;
 #[macro_use]
 extern crate serde_derive;
+mod errors;
 
 use actix_web::{middleware, App, HttpServer};
 use diesel::pg::Pg;
